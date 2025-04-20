@@ -1,5 +1,14 @@
 # Sample-modular-genai-app
 
+
+# 🧠 GenAI Application Stack
+
+A modular, multi-provider GenAI application that supports tasks like document validation, summarization, and retrieval-augmented generation (RAG) using configurable backends like OpenAI, AWS Bedrock, Azure OpenAI, and more.
+
+---
+
+## 📁 Project Structure
+```
 Sample-modular-genai-app/
 ├── genai_app/
 │   ├── api/
@@ -47,3 +56,43 @@ Sample-modular-genai-app/
 ├── requirements.txt
 ├── run_all.sh
 └── README.md
+```
+---
+
+## ✨ Features
+
+- 🔌 Multi-provider LLM support (OpenAI, Bedrock, Azure, etc.)
+- ✅ Validation pipelines for structured/unstructured docs
+- 🧠 RAG support for knowledge-aware reasoning
+- 📄 Externalized, versionable prompts
+- ⚙️ Configurable settings via `.env` or `settings.py`
+- 🧪 Unit test structure included
+- 🖥️ Optional Streamlit UI for quick testing
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/your-org/genai-app-stack.git
+cd genai-app-stack
+```
+
+# Set up virtual environment
+python -m venv venv
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run API
+uvicorn api.main:app --reload
+
+# (Optional) Run UI
+streamlit run ui/app.py
+
+---
+
+
+
