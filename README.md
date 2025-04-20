@@ -5,15 +5,6 @@
 
 A modular, multi-provider GenAI application that supports tasks like document validation, summarization, and retrieval-augmented generation (RAG) using configurable backends like OpenAI, AWS Bedrock, Azure OpenAI, and more.
 
-## ✨ Features
-
-- 🔌 Plug-and-play LLM provider interface
-- ✅ Task modules for validation, summarization, and RAG
-- 🧠 External prompt and RAG configuration
-- 📄 Unified backend API with FastAPI
-- 🖥️ Optional UI layer via Streamlit
-- 🔧 Centralized config and environment management
-- 🧪 Tests scaffolded for API, UI, and tasks
 
 ---
 
@@ -68,6 +59,16 @@ Sample-modular-genai-app/
 └── README.md
 ```
 ---
+
+## ✨ Features
+
+- 🔌 Plug-and-play LLM provider interface
+- ✅ Task modules for validation, summarization, and RAG
+- 🧠 External prompt and RAG configuration
+- 📄 Unified backend API with FastAPI
+- 🖥️ Optional UI layer via Streamlit
+- 🔧 Centralized config and environment management
+- 🧪 Tests scaffolded for API, UI, and tasks
 
 ## ✨ Features
 
